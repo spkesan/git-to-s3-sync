@@ -1,0 +1,7 @@
+name: Git to S3 sync
+description: Github action to sync files from git repo to s3 bucket
+author: SP Kesan
+
+runs:
+  using: docker
+  image: Dockerfile
